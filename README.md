@@ -4,17 +4,17 @@ timemonitor
 
 ### 获取引用  
 在project的gradle文件下添加  
-	allprojects {  
-		repositories {  
-			...  
-			maven { url 'https://jitpack.io' }  
-		}  
-	}  
+&emsp;&emsp;allprojects {  
+&emsp;&emsp;&emsp;repositories {  
+&emsp;&emsp;&emsp;&emsp;...  
+&emsp;&emsp;&emsp;&emsp;maven { url 'https://jitpack.io' }  
+&emsp;&emsp;&emsp;}  
+&emsp;&emsp;}  
   
 在module的gradle文件下添加  
 dependencies {  
-	        implementation 'com.github.zhoutianjie:timemonitor:v1.1'  
-	}  
+&emsp;&emsp;&emsp;implementation 'com.github.zhoutianjie:timemonitor:v1.1'  
+&emsp;&emsp;}  
   
 ### 使用方法  
 获取不同模块的TimeMonitor,Monitor是自定义，用来区分不同模块或方法  
