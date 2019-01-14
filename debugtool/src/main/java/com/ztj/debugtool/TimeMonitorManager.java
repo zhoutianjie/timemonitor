@@ -30,7 +30,7 @@ public class TimeMonitorManager {
         getTimeMonitor(id);
     }
 
-    private TimeMonitor getTimeMonitor(int id) {
+    public TimeMonitor getTimeMonitor(int id) {
         TimeMonitor timeMonitor = monitors.get(id);
         if(timeMonitor == null){
             timeMonitor = new TimeMonitor(id);
